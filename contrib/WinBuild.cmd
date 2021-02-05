@@ -2,9 +2,9 @@
 @setlocal EnableDelayedExpansion
 
 REM ------Set Your Environment------------------------------- 
-if NOT DEFINED MSVC_VERSION set MSVC_VERSION=15
+if NOT DEFINED MSVC_VERSION set MSVC_VERSION=19
 if NOT DEFINED CMAKE_CONFIG set CMAKE_CONFIG=Release
-if NOT DEFINED PYTHONHOME   set PYTHONHOME=C:/Users/%username%/Anaconda3
+if NOT DEFINED PYTHONHOME   set PYTHONHOME=C:/User/%Lihui Liu%/Anaconda3
 REM ---------------------------------------------------------
 
 set KEY_NAME="HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\VisualStudio\SxS\VS7"
